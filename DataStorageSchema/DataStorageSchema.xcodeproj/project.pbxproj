@@ -11,6 +11,8 @@
 		E08E7116290B3CCA0087A5BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7115290B3CCA0087A5BB /* ContentView.swift */; };
 		E08E7118290B3CCB0087A5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08E7117290B3CCB0087A5BB /* Assets.xcassets */; };
 		E08E711B290B3CCB0087A5BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08E711A290B3CCB0087A5BB /* Preview Assets.xcassets */; };
+		E08E7122290B3CDC0087A5BB /* UserSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7121290B3CDC0087A5BB /* UserSelection.swift */; };
+		E08E7124290B3D930087A5BB /* RunSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08E7123290B3D930087A5BB /* RunSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E08E7115290B3CCA0087A5BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E08E7117290B3CCB0087A5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08E711A290B3CCB0087A5BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E08E7121290B3CDC0087A5BB /* UserSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelection.swift; sourceTree = "<group>"; };
+		E08E7123290B3D930087A5BB /* RunSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				E08E7113290B3CCA0087A5BB /* DataStorageSchemaApp.swift */,
 				E08E7115290B3CCA0087A5BB /* ContentView.swift */,
+				E08E7121290B3CDC0087A5BB /* UserSelection.swift */,
 				E08E7117290B3CCB0087A5BB /* Assets.xcassets */,
 				E08E7119290B3CCB0087A5BB /* Preview Content */,
+				E08E7123290B3D930087A5BB /* RunSummary.swift */,
 			);
 			path = DataStorageSchema;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08E7122290B3CDC0087A5BB /* UserSelection.swift in Sources */,
 				E08E7116290B3CCA0087A5BB /* ContentView.swift in Sources */,
+				E08E7124290B3D930087A5BB /* RunSummary.swift in Sources */,
 				E08E7114290B3CCA0087A5BB /* DataStorageSchemaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

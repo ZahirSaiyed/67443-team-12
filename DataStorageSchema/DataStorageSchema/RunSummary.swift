@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct RunSummary {
+	let date: Date
+	let totalDistance: Double
+	let totalTime: TimeInterval
+	let avgPace: Double
+	let avgMusicBPM: Int
+}

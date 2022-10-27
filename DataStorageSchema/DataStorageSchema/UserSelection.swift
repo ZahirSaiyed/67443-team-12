@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct UserSelection {
+	let selectedPlaylists: [String]
+	let selectedSongs: [String]
+}
