@@ -8,6 +8,7 @@
 import Foundation
 
 struct RunSummary {
+	let id: Int
 	let date: Date
 	let totalDistance: Double
 	let totalTime: TimeInterval
